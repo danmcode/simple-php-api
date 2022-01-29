@@ -1,0 +1,29 @@
+{
+    "name": "danmcode/simple_api_structure",
+    "description": "a simple API structure with only php and composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [],
+        "classmap": [
+            "src/config",
+            "src/controllers",
+            "src/models",
+            "src/utils",
+            "src/views"
+        ],
+        "psr-4": {
+            "Text\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Alexander Muelas Rivera",
+            "email": "danielmuelasrivera483@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
